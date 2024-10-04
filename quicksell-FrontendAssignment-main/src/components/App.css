@@ -1,0 +1,164 @@
+body {
+  background-color: rgb(244, 245, 248);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 100px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn {
+  display: inline-flex;
+  margin: 0 40px;
+  font-size: 1.1rem;
+  max-height: 50px;
+  font-weight: 400;
+  background-color: white;
+  border-radius: 5px;
+  border: 1.5px solid rgb(204, 204, 204);
+  z-index: 1;
+}
+
+.head-tag-left {
+  display: flex;
+}
+
+.head-tag span {
+  margin: 0 5px;
+  color: rgb(160, 161, 166);
+}
+
+.dialog-box-wrap {
+  position: absolute;
+  border: 2px solid rgb(226, 226, 227);
+  border-radius: 5px;
+  top: 75px;
+  left: 40px;
+  width: 320px;
+  padding: 0.8rem;
+  background-color: rgb(248, 249, 251);
+  z-index: 1;
+}
+
+.dialog-box {
+  width: 100%;
+  height: 80px;
+  padding: 0 0.5rem;
+}
+
+.feild {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  margin: 0.6rem 0;
+}
+
+.feild label {
+  font-size: 1.2rem;
+  color: rgb(161, 161, 162);
+}
+
+.feild select {
+  height: 25px;
+  width: 100px;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 3px;
+  border: 2px solid rgb(226, 226, 227);
+}
+
+.main-div {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.test {
+  width: 350px;
+  padding: 0.2rem 1rem;
+}
+
+.head-tag {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: auto;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.imge img {
+  height: 20px;
+  width: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.online {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: relative;
+  left: 12px;
+  top: 22px;
+  background-color: green;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h2 {
+  font-size: 12px;
+  color: rgb(123, 127, 133);
+}
+
+.content {
+  display: inline-flex;
+}
+
+
+.tag {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(194, 194, 198);
+  border-radius: 5px;
+  width: 40%;
+  height: 20px;
+  margin-left: 1rem;
+}
+
+.tag .dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(144, 144, 147, 0.5);
+  border-radius: 50%;
+}
+
+.tag .footer-content {
+  margin-left: 5px;
+  font-size: 0.5rem;
+  color: rgb(144, 144, 147);
+}
+
+.content p {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
